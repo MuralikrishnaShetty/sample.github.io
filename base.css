@@ -1,0 +1,70 @@
+body{
+    margin:0%;
+    padding: 0%;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px;
+}
+.logo img{
+    width: 30px;
+}
+.link{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.link li a
+     {
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+.link li a:hover {
+    color: lightgray;
+}
+.button{
+    text-decoration: none;
+    background-color: green;
+    padding: 15px 32px;
+    border:none;
+    margin: 10px 2px;
+    display:inline-block;
+    color:white;
+}
+.button:hover{
+    background-color: #2a9d2a;
+}
+  
+.mainbox{
+    border: 2px solid black;
+    width:500px;
+    padding: 13px;
+    margin-top: 30px;
+    height: 450px;
+}
+.studentimage{
+    border: 2px solid black;
+    width: 315px;
+    padding: 13px;
+    margin-top: 30px;
+}
+.studentimage img{
+    width:200px;
+}
+/* Style for the table  */
+td,th{
+    border: 1px solid black;
+    font-size: 30px;
+    align-items: center;
+    padding: 5px;
+
+}
+table{
+    margin-left: 340px;
+    margin-top: 190px;
+    align-items: center;
+}
