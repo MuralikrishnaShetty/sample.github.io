@@ -1,0 +1,48 @@
+body{
+    background-image: url(loginbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.loginbox{
+    border: 2px ;
+    width: 50%;
+    height: 20rem;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 350px;
+    
+}
+.container{
+    margin: 34px;
+    padding-left: 70px;
+   
+    
+}
+.email{
+    margin: 20px;
+    height: 30px;
+    width: 210px;
+    border-radius: 10px;
+}
+.passwordl{
+    margin: 10px;
+    margin-left: 40px;
+    height: 30px;
+    width: 210px;
+    border-radius: 10px;
+}
+.buttonL {
+    text-decoration: none;
+    background-color: green;
+    padding: 15px 32px;
+    border:none;
+    margin: 10px 2px;
+    display:inline-block;
+    color:white;
+    margin-left: 150px;
+}
+.loginbox{
+    background-color: rgba(144, 140, 140, 0.3); /* Red background with 30% transparency */
+    /* Add padding to give it some space */
+    opacity: 0.9;
+}

@@ -1,38 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spring flowers school</title>
+    <title>Document</title>
     <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="loginpage.css">
 </head>
-
 <body>
-    <nav>
-        <div class="logo">
-            <img src="download.png" alt="logo">
+    
+    <form  id="login-form"  method="post">
+   <div class="loginbox">
+   <center> <h1>login</h1></center>
+   <center><p id="login-message"></p></center>
+    
+        <div class="container">
+            <label class="email" for="email">Email :</label>
+            <input id="username" class="email" type="email" name="email">
+            <br>
+            <label  class="password" for="password">Password :</label>
+            <input id="password" class="passwordl" type="password" name="password"><br>
+          <button class="buttonL" type="submit">Login</button>
+            
         </div>
-            <ul class="link">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="studentdetails.html">Student details</a></li>
-                <li><a href="#">About us</a></li>
-
-            </ul>
-
-        
-    </nav>
-    <div class="welcom">
-      <center>  <h1>Spring flowers school</h1></center>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum placeat, fuga dolorem repellat ipsam maiores
-        ea illo aspernatur quaerat maxime hic rem architecto, autem dolor cumque est quo natus quibusdam.
-
-
-    </div>
-    <center> 
-        <a href="timetable.html" class="button">Time table</a>
-    </center>
-
+   </div> 
+</form>
+<script src="login.js"></script>
 </body>
-
 </html>
