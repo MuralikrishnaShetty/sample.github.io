@@ -18,7 +18,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
         document.getElementById("login-message").textContent = "Login successful!";
         // Redirect or grant access to the authorized user here.
         setTimeout(function() {
-            window.location.href = "welcome.html"; // Replace with the actual URL of your welcome page.
+            window.location.href = "welcome.html"; 
         }, 1000);
 
     } else {
